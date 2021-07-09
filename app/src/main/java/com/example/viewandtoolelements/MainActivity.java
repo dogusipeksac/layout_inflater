@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void showButton(View view) {
-        LayoutInflater myLayoutInflater=getLayoutInflater();
+
         View view1=myLayoutInflater.inflate(R.layout.showlayout,null);
         TextView editText=view1.findViewById(R.id.textView);
         editText.setText("Welcome");
